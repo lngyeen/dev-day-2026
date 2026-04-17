@@ -69,3 +69,15 @@
 **Q15: Vòng lặp Đào thải — Công nghệ AI thay đổi quá nhanh. Hôm nay anh chia sẻ Claude Code và GSD, lỡ sang năm ra tool khác xịn hơn thì những kiến thức này có thành vô nghĩa không?**
 
 - **Trả lời:** "Rất có thể sang năm sẽ có công cụ mới thay thế. Nhưng hãy nhớ kỹ: **Công cụ thay đổi, Tư duy Kiến trúc là vĩnh cửu.** Claude Code hay GSD chỉ là phương tiện. Thứ anh muốn các em mang về hôm nay là tư duy chia để trị (Multi-Agent), tư duy phòng thủ (5 lớp bảo mật), và cách dùng Software Design làm 'La Bàn'. Khi một tool mới mạnh gấp 10 lần ra đời, em chỉ mất vài ngày để làm quen, rồi lập tức dùng nó xây dựng những hệ thống lớn hơn — vì cái 'La Bàn' trong đầu đã vững. Đừng chạy theo tool, hãy rèn tư duy điều phối hệ thống."
+
+**Q16: So sánh Workflow — Trong demo, anh dùng Claude Code kết hợp GSD. Nhưng trên thị trường có những dự án mã nguồn mở như OpenClaw hay GoClaw. Chúng khác nhau như thế nào và khi nào nên chọn cái nào?**
+
+- **Trả lời:** "Câu hỏi rất hay — đây là cơ hội để so sánh 3 triết lý thiết kế khác nhau của Agentic Workflow.
+
+  **OpenClaw** là một AI agent chạy cục bộ trên máy tính, được kết nối với các LLM như Claude, GPT, hay DeepSeek và giao tiếp qua các nền tảng nhắn tin như Telegram, Discord, Signal. Điểm mạnh của nó là hệ thống plugin 'skills' cực kỳ linh hoạt, cho phép agent tương tác với trình duyệt, file system, ứng dụng năng suất. Đây là lựa chọn lý tưởng cho cá nhân muốn có một 'trợ lý AI cá nhân' tự động hóa tác vụ hàng ngày — không nhất thiết phải là lập trình viên.
+
+  **GoClaw** hướng đến doanh nghiệp — đây là nền tảng Multi-Agent có tính năng bảo mật cấp enterprise như phát hiện SQL Injection, SSRF protection, mã hóa AES-256. Nó cho phép điều phối hàng nghìn agent song song với độ trễ khởi động dưới 1 giây. Đây là lựa chọn cho các công ty cần triển khai quy mô lớn với yêu cầu bảo mật cao.
+
+  **Claude Code + GSD** — workflow anh demo hôm nay — lại khác hoàn toàn về triết lý. Thay vì là một nền tảng độc lập, nó tích hợp trực tiếp vào môi trường lập trình: hiểu codebase của dự án, tuân thủ kiến trúc đã có, và hoạt động theo quy trình có kỷ luật (Plan → Execute → Verify). Nó không mạnh ở tự động hóa tác vụ hàng ngày như OpenClaw, cũng không mạnh về quy mô enterprise như GoClaw — nhưng nó là công cụ tốt nhất để 'xây dựng phần mềm chất lượng cao' có kiến trúc rõ ràng.
+
+  **Khi nào chọn cái nào?** Nếu muốn tự động hóa tác vụ cá nhân → OpenClaw. Nếu deploy agent ở quy mô doanh nghiệp → GoClaw. Nếu muốn build sản phẩm phần mềm thực thụ với AI → Claude Code + GSD."

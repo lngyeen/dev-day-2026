@@ -309,7 +309,8 @@ style: |
 
 ### Khi developer trở thành AI orchestrator
 
-_Lưu Nguyễn · Dev Day 2026_
+_Lưu Nguyễn · Software Engineer · Open Web Technology Vietnam_
+
 
 ---
 
@@ -326,11 +327,11 @@ _Lưu Nguyễn · Dev Day 2026_
 <div class="timeline">
 <div class="tl-item"><span class="tl-dot"></span><span class="tl-text">Open Web Technology Vietnam</span></div>
 <div class="tl-item"><span class="tl-dot"></span><span class="tl-text">Kỷ nguyên AI-driven development — con số thực tế</span></div>
-<div class="tl-item"><span class="tl-dot"></span><span class="tl-text">Từ Chatbot đến Agentic AI</span></div>
 <div class="tl-item"><span class="tl-dot"></span><span class="tl-text">Live Demo — từ Prompt đến Pull Request</span></div>
-<div class="tl-item"><span class="tl-dot"></span><span class="tl-text">Bảo mật & Chi phí</span></div>
+<div class="tl-item"><span class="tl-dot"></span><span class="tl-text">Agentic AI — Hiệu Quả, Rủi Ro & Chi Phí</span></div>
 <div class="tl-item"><span class="tl-dot"></span><span class="tl-text">Kỹ sư thời AI — bạn cần thay đổi gì?</span></div>
 </div>
+
 
 ---
 
@@ -351,10 +352,11 @@ section {
 </style>
 
 <div class="stats">
+<div class="stat"><div class="stat-number">2012</div><div class="stat-label">Founded</div><div class="stat-desc">in Đà Nẵng, Vietnam</div></div>
+<div class="stat"><div class="stat-number">80+</div><div class="stat-label">People</div><div class="stat-desc">engineers & operations</div></div>
 <div class="stat"><div class="stat-number">150+</div><div class="stat-label">Projects</div><div class="stat-desc">delivered globally</div></div>
-<div class="stat"><div class="stat-number">80+</div><div class="stat-label">Engineers</div><div class="stat-desc">developers & specialists</div></div>
-<div class="stat"><div class="stat-number">12+</div><div class="stat-label">Years</div><div class="stat-desc">of experienced team</div></div>
 </div>
+
 
 ---
 
@@ -401,6 +403,7 @@ section {
 </div>
 </div>
 
+
 ---
 
 <style scoped>
@@ -415,6 +418,7 @@ section {
 ![](images/team-culture-grid.png)
 
 </div>
+
 
 ---
 
@@ -436,11 +440,13 @@ section {
 
 > _Nguồn: Dữ liệu nội bộ Uber — [Pragmatic Engineer 3/2026](https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development)_
 
+
 ---
 
 # Traditional Dev Workflow
 
 ![h:420](images/uber-pre-ai-workflow.png)
+
 
 ---
 
@@ -448,11 +454,13 @@ section {
 
 ![h:420](images/uber-single-agent-workflow.png)
 
+
 ---
 
 # Emerging AI Agent Workflows
 
 ![h:420](images/uber-multi-agent-workflow.png)
+
 
 ---
 
@@ -467,13 +475,54 @@ section {
 - **Autocover:** Tự sinh **5,000+ unit tests/tháng**
 - **Shepherd:** Migration tự động — sửa code, test, mở PR
 
+
 ---
 
-<!-- _class: img-center -->
+<!-- _class: cover -->
+<!-- _paginate: false -->
 
-# Từ Chatbot Đến Agentic AI
+# **LIVE DEMO**
 
-![h:480](images/4-ai-levels.png)
+### Từ Prompt đến Pull Request
+
+
+---
+
+# Kết Quả Thực Tế — Skyguide DEST
+
+<style scoped>
+.result-layout { display: flex; gap: 0; align-items: center; margin-top: 4px; }
+.result-stats { flex: 1.1; }
+.result-img { flex: 0.9; text-align: right; }
+.result-img img { max-height: 520px; border-radius: 8px; }
+.stats-row { display: flex; text-align: center; margin-bottom: 4px; }
+.stat { flex: 1; padding: 0 2px; }
+.stat-number { font-family: 'Be Vietnam Pro', sans-serif; font-weight: 900; font-size: 2.1em; color: var(--owt-red); line-height: 1.1; }
+.stat-title { font-weight: 700; font-size: 0.85em; color: var(--owt-dark); margin: 6px 0 3px; }
+.stat-desc { font-size: 0.7em; color: var(--owt-muted); line-height: 1.3; }
+</style>
+
+<div class="result-layout">
+<div class="result-stats">
+
+<div class="stats-row">
+<div class="stat"><div class="stat-number">4x</div><div class="stat-title">Nhanh hơn</div><div class="stat-desc">4 tuần thay vì 15–18 tuần</div></div>
+<div class="stat"><div class="stat-number">31,926</div><div class="stat-title">Dòng Swift</div><div class="stat-desc">14,796 prod + 17,130 test</div></div>
+<div class="stat"><div class="stat-number">1,053</div><div class="stat-title">Tests</div><div class="stat-desc">994 unit + 59 E2E</div></div>
+</div>
+
+<div class="stats-row">
+<div class="stat"><div class="stat-number">~93%</div><div class="stat-title">Coverage</div><div class="stat-desc">business logic code</div></div>
+<div class="stat"><div class="stat-number">25</div><div class="stat-title">Screens</div><div class="stat-desc">4 ngôn ngữ · safety-critical</div></div>
+<div class="stat"><div class="stat-number">1</div><div class="stat-title">Developer</div><div class="stat-desc">+ AI orchestration</div></div>
+</div>
+
+</div>
+<div class="result-img">
+<img src="images/dest-app-preview.png" />
+</div>
+</div>
+
 
 ---
 
@@ -518,6 +567,7 @@ section {
 
 </div>
 </div>
+
 
 ---
 
@@ -570,51 +620,6 @@ section {
 
 > AI tự đánh giá bản thân rất tệ — tách **Generator** và **Evaluator** là giải pháp. *— [Anthropic Engineering 3/2026](https://www.anthropic.com/engineering/harness-design-long-running-apps)*
 
----
-
-<!-- _class: cover -->
-<!-- _paginate: false -->
-
-# LIVE DEMO
-
-### Từ Prompt đến Pull Request
-
----
-
-# Kết Quả Thực Tế — Skyguide DEST
-
-<style scoped>
-.result-layout { display: flex; gap: 0; align-items: center; margin-top: 4px; }
-.result-stats { flex: 1.1; }
-.result-img { flex: 0.9; text-align: right; }
-.result-img img { max-height: 520px; border-radius: 8px; }
-.stats-row { display: flex; text-align: center; margin-bottom: 4px; }
-.stat { flex: 1; padding: 0 2px; }
-.stat-number { font-family: 'Be Vietnam Pro', sans-serif; font-weight: 900; font-size: 2.1em; color: var(--owt-red); line-height: 1.1; }
-.stat-title { font-weight: 700; font-size: 0.85em; color: var(--owt-dark); margin: 6px 0 3px; }
-.stat-desc { font-size: 0.7em; color: var(--owt-muted); line-height: 1.3; }
-</style>
-
-<div class="result-layout">
-<div class="result-stats">
-
-<div class="stats-row">
-<div class="stat"><div class="stat-number">4x</div><div class="stat-title">Nhanh hơn</div><div class="stat-desc">4 tuần thay vì 15–18 tuần</div></div>
-<div class="stat"><div class="stat-number">31,926</div><div class="stat-title">Dòng Swift</div><div class="stat-desc">14,796 prod + 17,130 test</div></div>
-<div class="stat"><div class="stat-number">1,053</div><div class="stat-title">Tests</div><div class="stat-desc">994 unit + 59 E2E</div></div>
-</div>
-
-<div class="stats-row">
-<div class="stat"><div class="stat-number">~93%</div><div class="stat-title">Coverage</div><div class="stat-desc">business logic code</div></div>
-<div class="stat"><div class="stat-number">25</div><div class="stat-title">Screens</div><div class="stat-desc">4 ngôn ngữ · safety-critical</div></div>
-<div class="stat"><div class="stat-number">1</div><div class="stat-title">Developer</div><div class="stat-desc">+ AI orchestration</div></div>
-</div>
-
-</div>
-<div class="result-img">
-<img src="images/dest-app-preview.png" />
-</div>
-</div>
 
 ---
 
@@ -623,6 +628,7 @@ section {
 # Bảo Mật Khi AI Viết Code
 
 ![h:480](images/security-5-layers.png)
+
 
 ---
 
@@ -642,26 +648,29 @@ section {
 <div class="stat"><div class="stat-number">#1</div><div class="stat-title">Ưu tiên</div><div class="stat-desc">Token cost optimization là bài toán hàng đầu</div></div>
 </div>
 
+
 ---
 
 # Điều AI Chưa Làm Được
 
 - **Hiểu nghiệp vụ** — constraint, lịch sử hệ thống — AI không tự biết
 - **Tầm nhìn kiến trúc** — quyết định dài hạn mà AI không đủ thông tin để đưa ra
-- **Người quyết định** — AI đề xuất, bạn quyết định và chịu trách nhiệm
+- **Tư duy phản biện** — AI làm theo, bạn phải biết khi nào cần dừng lại và hỏi
 
 > AI viết code nhanh hơn bạn. Nhưng AI không biết hệ thống của bạn sẽ phục vụ ai, chịu tải bao nhiêu, và có sống sót qua 3 năm bảo trì hay không.
+
 
 ---
 
 # Điều Bạn Cần Làm
 
 - ~~Code nhiều = giỏi~~
-- Viết **Spec** rõ, **Review** kỹ — output AI phụ thuộc hoàn toàn vào input của bạn
-- Từ **coder** thành **AI orchestrator** — thiết kế, review, điều phối
-- Năng suất nhân lên, **headcount không đổi** — đây là thực tế
+- Viết **Spec** rõ, **Review** kỹ
+- Từ **thực thi** thành **điều phối** — thiết kế, phân chia, giao việc cho AI
+- Năng suất nhân lên, **headcount không đổi**
 
 > Kỹ sư biết dùng AI sẽ **làm được nhiều hơn** kỹ sư không biết. Khoảng cách chỉ ngày càng lớn.
+
 
 ---
 
@@ -681,13 +690,15 @@ section::after { color: var(--owt-muted); }
 - Tự **build project thật** với AI — khác biệt lớn khi phỏng vấn
 - **Contribute open source** — cách nhanh nhất để học làm việc với codebase thật
 
+
 ---
 
 <!-- _class: cover -->
 <!-- _paginate: false -->
 
-# Hỏi Đáp
+# **Hỏi Đáp**
 
 ### Cảm ơn mọi người!
 
-_Lưu Nguyễn · Dev Day 2026_
+_Lưu Nguyễn · Software Engineer · Open Web Technology Vietnam_
+

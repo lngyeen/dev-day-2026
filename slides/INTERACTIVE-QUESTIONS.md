@@ -1,7 +1,7 @@
 # Câu Hỏi Tương Tác — Speaker Hỏi Audience (Sau Khi Kết Thúc Present)
 
-*Dev Day 2026 — 8 câu có quà — từ dễ đến khó*
-*Hỏi liên tục sau slide 21 (Q&A), trước khi kết thúc buổi*
+*Dev Day 2026 — 7 câu có quà — từ dễ đến khó*
+*Hỏi liên tục sau slide 20 (Q&A), trước khi kết thúc buổi*
 
 ---
 
@@ -47,19 +47,7 @@
 
 ---
 
-## Q4 — Dễ
-
-**Hỏi:** "4 level AI — ai kể được tên cả 4?"
-
-**Đáp án:** LLM, RAG, Agent, Agentic AI
-
-**Gợi ý nếu khó:** "Level 1 bắt đầu bằng chữ L..."
-
-**Format:** Hét đáp án, đủ 4 nhận quà
-
----
-
-## Q5 — Trung bình
+## Q4 — Trung bình
 
 **Hỏi:** "Dự án Skyguide DEST — 1 developer + AI hoàn thành trong bao lâu?"
 
@@ -71,7 +59,7 @@
 
 ---
 
-## Q6 — Trung bình
+## Q5 — Trung bình
 
 **Hỏi:** "OWT phục vụ 6 lĩnh vực ngành. Ai kể được 3 trong 6?"
 
@@ -83,7 +71,7 @@
 
 ---
 
-## Q7 — Khó
+## Q6 — Khó
 
 **Hỏi:** "5 lớp bảo mật — ai kể được 3 trong 5?"
 
@@ -95,34 +83,33 @@
 
 ---
 
-## Q8 — Khó
+## Q7 — Khó
 
-**Hỏi:** "Level 3 Agent khác Level 4 Agentic AI ở điểm nào? 1 câu thôi."
+**Hỏi:** "Single Agent khác Multi-Agent ở điểm nào? Kể 2 điểm."
 
-**Đáp án:** Level 3 = 1 agent làm một mình, Level 4 = nhiều agent phối hợp với nhau
+**Đáp án:** Single agent: context quá tải, dễ sai sót, không tự sửa lỗi. Multi-agent: mỗi agent chuyên biệt, có feedback loop, tự sửa lỗi.
 
-**Gợi ý nếu khó:** "Nghĩ về số lượng agent..."
+**Gợi ý nếu khó:** "Nghĩ về context và feedback loop..."
 
-**Format:** Hét đáp án, ai giải thích rõ nhất thắng
+**Format:** Hét đáp án, ai đầy đủ nhất thắng
 
 ---
 
-## Phân bổ 8 quà
+## Phân bổ 7 quà
 
 | Thứ tự | Câu hỏi | Độ khó | Chủ đề |
 |--------|---------|--------|--------|
 | 1 | Q1 | Dễ | OWT — năm thành lập |
 | 2 | Q2 | Dễ | OWT — văn phòng Thuỵ Sĩ |
 | 3 | Q3 | Dễ | OWT — khách hàng |
-| 4 | Q4 | Dễ | 4 AI levels — tên |
-| 5 | Q5 | Trung bình | OWT — Skyguide DEST thời gian |
-| 6 | Q6 | Trung bình | OWT — lĩnh vực ngành |
-| 7 | Q7 | Khó | 5 lớp bảo mật |
-| 8 | Q8 | Khó | Level 3 vs Level 4 — hiểu sâu |
+| 4 | Q4 | Trung bình | Skyguide DEST — thời gian hoàn thành |
+| 5 | Q5 | Trung bình | OWT — lĩnh vực ngành |
+| 6 | Q6 | Khó | 5 lớp bảo mật |
+| 7 | Q7 | Khó | Single vs Multi-Agent |
 
 ## Mẹo
 
 - Hỏi lần lượt, tặng quà xong mới qua câu tiếp
 - Nếu không ai trả lời: giảm độ khó ("OK khó quá, vậy ai nói được 2 thôi?")
 - Nếu nhiều người trả lời cùng lúc: "ai nhanh nhất" hoặc "ai đầy đủ nhất"
-- Sau 8 câu có quà, chuyển sang hỏi đáp tự do: "OK hết quà rồi — nhưng câu hỏi thì không giới hạn. Hỏi gì cũng được."
+- Sau 7 câu có quà, chuyển sang hỏi đáp tự do: "OK hết quà rồi — nhưng câu hỏi thì không giới hạn. Hỏi gì cũng được."
